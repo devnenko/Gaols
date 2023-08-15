@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.cfbbb3d9.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.f44fba1a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.bea74f86.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.bed846a3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.0719bd3d.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.be4f5cae.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.ce583c9c.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <h1 data-svelte-h="svelte-yyjjjs">Welcome to SvelteKit</h1> <p data-svelte-h="svelte-jl9sbz">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> 
+			
+			<script>
+				{
+					__sveltekit_16brbti = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.f44fba1a.js"),
+						import("./_app/immutable/entry/app.bed846a3.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
