@@ -1,0 +1,21 @@
+{ 
+
+  "name": "Goals", 
+
+  "short_name": "WebName", 
+
+  "start_url": "https://devnenko.github.io/Goals/", 
+
+  "display": "standalone", 
+
+  "icons": [{ 
+
+    "src": "favicon.png", 
+
+    "sizes": "128x128", 
+
+    "type": "image/png" 
+
+  }] 
+
+}
